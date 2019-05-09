@@ -1,0 +1,18 @@
+Klasa to przepis na obiekt.
+
+Obiekt to instancja klasy.
+
+Zmienna to elementy służące do przechowywania danych w kodzie programu.
+
+Każda zmienna musi miec okresilony typ np int albo String
+
+Jeśli deklaracje zmiennej poprzedzimy słowem final to nie będziemy mogli przypisać jej póżniej nowej wartości.
+
+W klasie mogą znajdowac się pola, konstruktory i metody.
+
+Jeśli w klasie znajduje się chociaż jeden konstruktor to kompilator nie wygeneruje dla nas konstruktora domyslnego.
+
+Zakładając, że istnieje klasa Car, to przy zapisie:
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);  Car car2 = car1;
+
+car1 i car2 to dwie referencje … wskazujące na ten sam obiekt.
